@@ -33,7 +33,7 @@ function calculate() {
 
   if (birth_month > current_month) {
     current_year = current_year - 1;
-    current_month = current_month + 12;
+    current_month =  parseInt(current_month) + 12;
   }
 
   if(isNaN(dob)==false )
