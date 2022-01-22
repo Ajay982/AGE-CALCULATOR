@@ -50,3 +50,17 @@ background-color: #3276B1;
   padding: 45px;
   background-color: rgb(246,246,246);
 }
+
+
+@media  screen and (max-width: 600px) {
+  .container1 {
+    background-color: lightblue;
+    width: 50%;
+    justify-content: center;
+  }
+  .container2 {
+    background-color: lightblue;
+    width: 50%;
+    justify-content: center;
+  }
+}
